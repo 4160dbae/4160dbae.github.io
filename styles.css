@@ -63,7 +63,7 @@ h1 {
 nav {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   color: #746a58;
   font-size: 14px;
   line-height: 1.4;

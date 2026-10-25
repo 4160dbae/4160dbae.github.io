@@ -40,12 +40,12 @@ body::before {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 64px 4.3vw;
+  padding: 80px 4.3vw;
 }
 
 h1 {
-  margin: 0 0 14px;
-  font-size: clamp(28px, 2vw, 36px);
+  margin: 0 0 20px;
+  font-size: clamp(30px, 2.2vw, 38px);
   font-weight: 500;
   font-family: Georgia, "Times New Roman", serif;
   letter-spacing: -0.035em;
@@ -55,7 +55,7 @@ h1 {
 nav {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
   color: #746a58;
   font-size: 14px;
   line-height: 1.4;
@@ -80,14 +80,14 @@ a:focus-visible {
 
 @media (max-width: 600px) {
   .intro {
-    padding: 40px 7vw;
+    padding: 88px 7vw 40px;
   }
 
   h1 {
-    margin-bottom: 12px;
+    margin-bottom: 18px;
   }
 
   nav {
-    font-size: 13px;
+    font-size: 14px;
   }
 }

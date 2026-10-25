@@ -44,7 +44,7 @@ body::before {
 }
 
 h1 {
-  margin: 0 0 36px;
+  margin: 0 0 14px;
   font-size: clamp(28px, 2vw, 36px);
   font-weight: 500;
   font-family: Georgia, "Times New Roman", serif;
@@ -57,7 +57,7 @@ nav {
   align-items: center;
   gap: 8px;
   color: #746a58;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -84,10 +84,10 @@ a:focus-visible {
   }
 
   h1 {
-    margin-bottom: 28px;
+    margin-bottom: 12px;
   }
 
   nav {
-    font-size: 16px;
+    font-size: 13px;
   }
 }

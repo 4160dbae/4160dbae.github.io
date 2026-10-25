@@ -52,39 +52,14 @@ body::before {
 }
 
 h1 {
-  margin: 0 0 12px;
-  font-size: clamp(30px, 2.2vw, 38px);
+  max-width: calc(100vw - 14vw);
+  margin: 0;
+  text-align: center;
+  font-size: clamp(22px, 2.2vw, 30px);
   font-weight: 500;
   font-family: Georgia, "Times New Roman", serif;
   letter-spacing: -0.035em;
-  line-height: 1.1;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-left: 4px;
-  color: #746a58;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-a {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-a:hover,
-a:focus-visible {
-  color: #555;
-}
-
-a:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 4px;
+  line-height: 1.25;
 }
 
 @media (max-width: 600px) {
@@ -92,11 +67,4 @@ a:focus-visible {
     padding: 88px 7vw 40px;
   }
 
-  h1 {
-    margin-bottom: 10px;
-  }
-
-  nav {
-    font-size: 14px;
-  }
 }

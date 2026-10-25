@@ -64,6 +64,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 6px;
+  margin-left: 4px;
   color: #746a58;
   font-size: 14px;
   line-height: 1.4;

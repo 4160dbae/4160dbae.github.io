@@ -52,7 +52,7 @@ body::before {
 }
 
 h1 {
-  margin: 0 0 20px;
+  margin: 0 0 12px;
   font-size: clamp(30px, 2.2vw, 38px);
   font-weight: 500;
   font-family: Georgia, "Times New Roman", serif;
@@ -93,7 +93,7 @@ a:focus-visible {
   }
 
   h1 {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
   }
 
   nav {
